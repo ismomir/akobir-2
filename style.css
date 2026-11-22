@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    color: #2c2f3a;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eceef2;
+}
+
+.header-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-img {
+    height: 36px;
+    width: auto;
+    display: block;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-menu a {
+    color: #3a3d46;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Иконка меню (три горизонтальные линии) */
+.burger-btn {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.burger-btn span {
+    display: block;
+    height: 2px;
+    background-color: #1f2430;
+    border-radius: 2px;
+}
+
+
+/* Кнопка Sign In */
+.sign-in-btn {
+    display: inline-block;
+    padding: 10px 26px;
+    border: 1px solid #bfc4ce;
+    border-radius: 999px;
+    color: #1f295a;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
