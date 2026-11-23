@@ -389,3 +389,82 @@ body {
     height: auto;
     display: inline-block;
 }
+
+/* +++++++++++++++++++++++++++++++ */
+/* Блок отзыва */
+.testimonial-section {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 40px 70px;
+}
+
+.testimonial-box {
+    display: flex;
+    width: 1160px;
+    height: 440px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.testimonial-left {
+    width: 580px;
+    height: 440px;
+}
+
+.testimonial-photo {
+    width: 580px;
+    height: 440px;
+    display: block;
+}
+
+.testimonial-right {
+    width: 580px;
+    height: 440px;
+    background-color: #f4cb48;
+    padding: 38px 56px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.testimonial-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    display: block;
+}
+
+.testimonial-name {
+    font-size: 14px;
+    color: #5a5238;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+.testimonial-quote {
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+    color: #2c2920;
+}
+
+/* Нижние полоски-индикаторы */
+.testimonial-dots {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.dot-item {
+    width: 14px;
+    height: 3px;
+    background-color: #b89b42;
+}
+
+.dot-active {
+    width: 24px;
+    background-color: #2f6fed;
+}
