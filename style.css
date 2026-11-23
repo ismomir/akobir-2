@@ -606,3 +606,88 @@ body {
 }
 /* ++++++++++++++++++++++++++++++ */
 
+/* перед послед */
+/* Блок подписки на рассылку */
+.subscribe-section {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 40px 70px;
+}
+
+.subscribe-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1160px;
+    height: 360px;
+    background-color: #efefef;
+    border-radius: 16px;
+    padding: 44px 48px 0;
+    overflow: hidden;
+}
+
+.subscribe-left {
+    width: 640px;
+    padding-bottom: 44px;
+}
+
+.subscribe-left h2 {
+    font-size: 32px;
+    line-height: 1.25;
+    color: #1f2430;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.subscribe-desc {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #6b7280;
+    margin-bottom: 32px;
+}
+
+/* Поле ввода и кнопка Subscribe */
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 410px;
+    height: 54px;
+    background-color: #ffffff;
+    border-radius: 27px;
+    padding: 6px 6px 6px 22px;
+}
+
+.subscribe-input {
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+.subscribe-btn {
+    width: 112px;
+    height: 42px;
+    background-color: #2f6fed;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Правое фото */
+.subscribe-right {
+    width: 340px;
+    height: 330px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: none;
+}
+
+.subscribe-img {
+    width: 310px;
+    height: 330px;
+    display: block;
+}
