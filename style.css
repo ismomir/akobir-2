@@ -301,3 +301,91 @@ body {
     color: #7b8190;
 }
 /* ++++++++++++++++++++++++++++++++ */
+/* Блок Finest Luxury Hotels & Resort */
+.luxury-section {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 40px 70px;
+}
+
+.luxury-main {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 65px;
+}
+
+.luxury-photo-box {
+    width: 540px;
+    height: 460px;
+}
+
+.luxury-img {
+    width: 540px;
+    height: 460px;
+    border-radius: 16px;
+    display: block;
+}
+
+.luxury-info {
+    flex: 1;
+}
+
+.luxury-info h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    color: #111318;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.luxury-desc {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #6b7280;
+    margin-bottom: 32px;
+}
+
+/* Показатели 120K+, 110K+, 20K+, 8Y+ */
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 34px;
+}
+
+.stat-number {
+    font-size: 26px;
+    font-weight: bold;
+    color: #111318;
+    margin-bottom: 6px;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+/* Синяя кнопка Explore More */
+.explore-btn {
+    display: inline-block;
+    background-color: #2f6fed;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Нижняя полоса логотипов */
+.companies-bar {
+    text-align: center;
+}
+
+.companies-img {
+    width: 100%;
+    max-width: 1160px;
+    height: auto;
+    display: inline-block;
+}
